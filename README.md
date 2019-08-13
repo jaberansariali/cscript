@@ -1,2 +1,2 @@
 # cscript
-use this command for create automatically header 
+Use this command for create automatically header 
