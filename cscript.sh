@@ -51,7 +51,7 @@ else
     read Name
 fi
 
-description="`whereis $usage |awk  '{print $2}'`
+description="`#!whereis $usage |awk  '{print $2}'`
 #title           :$Name.$Type_script
 #description     :$description
 #author          :$USER
@@ -63,4 +63,5 @@ description="`whereis $usage |awk  '{print $2}'`
 
 
 echo "$description" >$defult_path/$Name.$Type_script
+chmod +x $defult_path/$Name.$Type_script 
 vim $defult_path/$Name.$Type_script
