@@ -51,7 +51,7 @@ else
     read Name
 fi
 
-description="`#!whereis $usage |awk  '{print $2}'`
+description="#!`whereis $usage |awk  '{print $2}'`
 #title           :$Name.$Type_script
 #description     :$description
 #author          :$USER
